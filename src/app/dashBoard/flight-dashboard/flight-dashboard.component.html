@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="data">
+    <div class="time" *ngIf="States$ |async as States">
+      <div class="date">{{States | json}}</div>
+    </div>
+  </div>
+</div>
+

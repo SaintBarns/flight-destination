@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="details">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmitDetaials()" >
+      <div class="number">
+        <h2 class="h2">Login</h2>
+      </div>
+      <div class="username">
+        <label for="name">Email</label>
+        <input
+          type="email"
+          placeholder="Please enter your Email"
+          formControlName="email" />
+          <div class="validation" *ngIf="loginForm.get('email')?.touched && !loginForm.get('email')?.valid">Please email is not valid</div>
+      </div>
+      <div class="username">
+        <label for="name">Password</label>
+        <input
+          type="password"
+          placeholder="Please enter your Password"
+          formControlName="password"
+        />
+        <div class="validation" *ngIf="loginForm.get('password')?.touched && !loginForm.get('password')?.valid">Please password is not valid</div>
+      </div>
+      <button class="submit" [disabled]="!loginForm.valid" type="submit">Login</button>
+      <div class="user">
+      <p class="user-text">Dont have an account?</p>
+      <button class="route" (click)="router()">Sign-Up</button>
+    </div>
+    </form>
+
+  </div>
+</div>

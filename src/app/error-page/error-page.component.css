@@ -1,0 +1,11 @@
+.error{
+    background-color: rgb(241, 235, 235);
+    width: 70%;
+    margin: 2rem auto;
+    height: 70vh;
+}
+
+h2{
+    text-align: center;
+    padding-top: 3rem;
+}

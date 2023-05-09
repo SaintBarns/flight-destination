@@ -1,0 +1,14 @@
+<div class="header">
+    <ul>
+
+      <ng-container class="content" *ngIf="authService.currentUser$ |async as user">
+        <button (click)="logOut()">Logout</button>
+       </ng-container>
+      <li  [routerLinkActive]="'active'"><a class="nav" routerLink="">Home</a>
+      <li [routerLinkActive]="'dashboard'"><a class="nav" [routerLink]="['/dashboard']">Dashboard</a></li>
+      <!-- <li [routerLinkActive]="'active'"><a class="nav" [routerLink]="['/questions']">FAQ</a></li> -->
+      <li [routerLinkActive]="'active'"><a  class="nav" routerLink="/contact">contact Saint Barns</a></li>
+    </ul>
+<router-outlet></router-outlet>
+</div>
+

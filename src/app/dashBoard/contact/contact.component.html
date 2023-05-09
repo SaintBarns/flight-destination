@@ -1,0 +1,24 @@
+<div class="color">
+  <div class="back"><a class="back" [routerLink]="['/Home']">Back to Home</a></div>
+<div class="flex">
+   <div class="one">
+   <h2 *ngIf="user$ | async as user">Welcome to our App: {{user.displayName}}</h2>
+  <img src="../../assets/saint.jpg" alt="barns">
+ </div>
+
+  <div class="two">
+     <p class="paragraph">I'm Dooga Mough Barnabas, a frontend web engineer
+    having a considerable knowledge of mordern web technologies such
+    as CSS, HTML, SASS, GIT, GITHUB, JAVASCRIPT and ANGULAR. I have
+    passion for web Development and enjoy coding as my hobby. <br>
+    My joy about web Development is that you get to
+    learn everyday about new features and work best practices, and will be glad to learn more
+    and contribute my quoter to ensure the company
+    maximize their weath and profit.
+   </p>
+    <a class="email" href="barnsdooga@gmail.com">barnsdooga@gmail.com</a>
+     <p class="email">phone: +2349162955206</p>
+
+</div>
+  </div>
+</div>

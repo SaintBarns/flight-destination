@@ -1,0 +1,169 @@
+
+.header{
+  background-color: rgb(156, 117, 192);
+  height: 10vh;
+}
+ul{
+  display: flex;
+margin-left: 6rem;
+}
+li{
+  list-style: none;
+  padding-top: 1.5rem;
+}
+
+li:hover{
+  color: rgb(255, 250, 250);
+}
+.nav{
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  margin-right: 1rem;
+}
+.nav:hover{
+  color: white;
+}
+
+
+
+button{
+   margin-top: 1.5rem;
+   margin-right: 1rem;
+   font-size: 1rem;
+
+}
+select{
+  padding: .5rem 1.5rem;
+}
+
+
+
+@media screen and (min-width: 320px){
+li{
+  list-style: none;
+  margin-right: 0rem;
+  padding-top: .4rem;
+  font-size: .8rem;
+}
+
+button{
+   margin: .5rem;
+   font-size: .7rem;
+   background-color: transparent;
+   outline: none;
+   border: 1px solid white;
+   padding: 0rem .5rem;
+   color: white;
+}
+
+ul{
+  display: flex;
+margin-left: 2rem;
+}
+.header{
+  border: 1px solid green;
+}
+}
+
+@media screen and (min-width: 481px){
+li{
+  list-style: none;
+  margin-right: 0rem;
+  padding-top: .3rem;
+  font-size: 1rem;
+}
+
+button{
+   margin: .5rem;
+   font-size: .7rem;
+   background-color: transparent;
+   outline: none;
+   border: 1px solid white;
+   padding: 0rem .5rem;
+   color: white;
+}
+
+
+ul{
+  display: flex;
+margin-left: 6rem;
+}
+}
+
+
+@media screen and (min-width: 768px){
+li{
+  list-style: none;
+  margin-right: 0rem;
+  padding-top: .3rem;
+  font-size: 1rem;
+}
+
+button{
+   margin: .5rem;
+   font-size: .7rem;
+   background-color: transparent;
+   outline: none;
+   border: 1px solid white;
+   padding: 0rem .5rem;
+   color: white;
+}
+
+
+ul{
+  display: flex;
+margin-left: 15rem;
+}
+
+}
+@media screen and (min-width: 1024px){
+li{
+  list-style: none;
+  margin-right: 0rem;
+  padding-top: .2rem;
+  font-size: 1rem;
+}
+
+button{
+   margin: .5rem;
+   font-size: .7rem;
+   background-color: transparent;
+   outline: none;
+   border: 1px solid white;
+   padding: 0rem .5rem;
+   color: white;
+}
+
+
+ul{
+  display: flex;
+margin-left: 20rem;
+}
+
+}
+@media screen and (min-width: 1200px){
+li{
+  list-style: none;
+  margin-right: 0rem;
+  padding-top: .6rem;
+  font-size: 1.2rem;
+}
+
+button{
+   margin: .5rem;
+   font-size: .7rem;
+   background-color: transparent;
+   outline: none;
+   border: 1px solid white;
+   padding: 0rem .5rem;
+   color: white;
+}
+
+
+ul{
+  display: flex;
+justify-content: flex-end;
+}
+
+}
